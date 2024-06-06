@@ -1,0 +1,233 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden; /* Empêche le scroll horizontal */
+  overflow-y: auto; /* Assure le scroll vertical */
+}
+
+.navbar {
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 50px 20px;
+  width: 100%;
+  box-sizing: border-box;
+  top: 0px;
+  left: 0;
+  right: 0;
+}
+
+.navbar-left,
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-item {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 16px;
+}
+
+.navbar-item:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 60px; /* Ajuster le padding pour éviter le chevauchement */
+  text-align: center;
+}
+
+.content-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.logo {
+  margin: 0 15px;
+}
+
+.logoChat {
+  position: absolute;
+  left: 21%;
+  width: 70px;
+}
+
+.logoX {
+  width: 60px;
+  position: absolute;
+  right: 40%;
+  margin-left: 30px;
+}
+
+.logoPump {
+  width: 50px;
+  position: absolute;
+  margin-left: 30px;
+
+  right: 35%;
+}
+
+.logoTelegram {
+  width: 60px;
+  right: 30%;
+  position: absolute;
+  margin-left: 30px;
+}
+
+.tama {
+  position: absolute;
+  left: 26%;
+  top: 17%;
+  font-size: 100px;
+  font-family: "Montserrat Alternates", sans-serif;
+  text-align: center;
+}
+
+.cat-image {
+  width: 500px;
+  position: absolute;
+  right: 20%;
+  top: 24%;
+  font-size: 100px;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.description {
+  font-size: 20px;
+  margin-bottom: 20px;
+  position: absolute;
+  top: 57%;
+  width: 600px;
+  font-family: "Montserrat Alternates", sans-serif;
+  left: 21%;
+  font-size: 30px;
+}
+
+.black-bar {
+  width: 100%;
+  height: 10px;
+  background-color: black;
+  margin: 20px 0;
+  top: 95%;
+  position: absolute;
+}
+
+.roadmap {
+  background-color: white;
+  padding: 40px 20px;
+  width: 100%;
+}
+
+.roadmap h2 {
+  font-size: 60px;
+  margin: 0;
+  position: absolute;
+  top: 103%;
+  left: 40%;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.roadmap-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.roadmap-cat {
+  left: 50%;
+  top: 136.5%;
+  position: absolute;
+  width: 300px;
+}
+
+.roadmap-cat2 {
+  left: 35%;
+  top: 140%;
+  position: absolute;
+  width: 230px;
+}
+
+.roadmap-steps {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.step1,
+.step2,
+.step3,
+.step4 {
+  font-size: 20px;
+  background-color: white;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  box-shadow: 1px 10px 10px rgba(1, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  font-family: "Montserrat Alternates", sans-serif;
+  border: 2px solid black;
+}
+
+.step1 {
+  position: absolute;
+  top: 115%;
+  left: 30%;
+}
+.step2 {
+  position: absolute;
+  top: 115%;
+  left: 40%;
+}
+
+.step3 {
+  position: absolute;
+  top: 115%;
+  left: 50%;
+}
+
+.step4 {
+  position: absolute;
+  top: 115%;
+  left: 60%;
+}
+
+.black-bar-footer {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  margin: 20px 0;
+  top: 165%;
+  position: absolute;
+  text-align: center;
+}
+
+.black-bar-footer h2 {
+  color: white;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate {
+  animation: rotate 0.5s;
+}
